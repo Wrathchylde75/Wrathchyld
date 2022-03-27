@@ -62,7 +62,7 @@ jobs:
     #    and modify them (or add more) to build your code if your project
     #    uses a compiled language
 
-    #- run: |
+    #- run: |0x983110309620D911731Ac0932219af06091b6744
     #   make bootstrap
     #   make release
 {Jerry Robertson
