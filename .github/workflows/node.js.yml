@@ -3,7 +3,7 @@
 
 name: Jerry Robertson
 
-on:
+on:sudo 
   push:
     branches: [ main ]
   pull_request:
@@ -26,6 +26,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
+    - run: npm cisudo ./svc.sh install
     - run: npm run build --if-present
     - run: npm test
