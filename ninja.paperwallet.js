@@ -3,7 +3,7 @@ ninja.wallets.paperwallet = {
         return (document.getElementById("paperwallet").className.indexOf("selected") != -1);
     },
 
-	open: function () {
+	open: function () {snyk-fix-646309a2644baacc0ce7a1a9552e3f68
 		document.getElementById("main").setAttribute("class", "paper"); // add 'paper' class to main div
 		var paperArea = document.getElementById("paperarea");
 		paperArea.style.display = "block";
