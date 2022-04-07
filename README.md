@@ -114,3 +114,25 @@ post '/create-checkout-session' do
   })
   redirect session.url, 303
 end
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        java: [ '8', '11', '13', '15' ]
+    name: Java ${{ matrix.Java }} sample
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup java
+        uses: actions/setup-java@v2
+        with:
+          distribution: '<distribution>'
+          java-version: ${{ matrix.java }}
+      - run: java -cp java HelloWorldAppsteps:
+- uses: actions/checkout@v2
+- uses: actions/setup-java@v2
+  with:
+    distribution: 'adopt'
+    java-version: '11'
+    check-latest: true
+- run: java -cp java HelloWorldAppmatrix.Javamatrix.java
