@@ -27,3 +27,53 @@ Scan to check the
 
 validity of the r
 eceipt on Blockchair.comhttps://blockchair.com/bitcoin/transaction/fc3cae3af9df29281f9855ea1d8fe92f7c20d2632cd41d1615a9bc5801b6c0df
+get '/callback' do
+  # ...
+  # Get the access_token using the code sample above
+  # ...
+
+  # check if we were granted user:email scope
+  scopes = JSON.parse(result)['scope'].split(',')
+  has_user_email_scope = scopes.include? 'user:email'
+endhttps://github.com/login/oauth/access_tokenget '/callback' do
+  # get temporary GitHub code...
+  session_code = request.env['rack.request.query_hash']['code']
+
+  # ... and POST it back to GitHub
+  result = RestClient.post('https://github.com/login/oauth/access_token',
+                          {:client_id => CLIENT_ID,
+                           :client_secret => CLIENT_SECRET,
+                           :code => session_code},
+                           :accept => :json)
+
+  # extract the token and granted scopes
+  access_token = JSON.parse(result)['access_token']
+end<html>
+  <head>
+  </head>
+  <body>
+    <p>
+      Well, hello there!
+    </p>
+    <p>
+      We're going to now talk to the GitHub API. Ready?
+      <a href="https://github.com/login/oauth/authorize?scope=user:email&client_id=<%= client_id %>">Click here</a> to begin!
+    </p>
+    <p>
+      If that link doesn't work, remember to provide your own <a href="/apps/building-oauth-apps/authorizing-oauth-apps/">Client ID</a>!
+    </p>
+  </body>
+</html>https://github.com/login/oauth/authorize?scope=user:email&client_id=gradle-app.settinghttps://youtrack.jetbrains.com/issue/IDEA-116898-wrapper.properties.gradle
+/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
