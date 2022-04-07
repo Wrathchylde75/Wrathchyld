@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning ...
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
-git remote set-url
+git remote set-url end point:https://www.facebook.com/jerry.robertson.9847
 <!---
 Wrathchyld/Wrathchyld is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
@@ -22,7 +22,13 @@ $ tar xzf ./actions-runner-linux-x64-2.289.2.tar.gzuactions-runner-linux-x64-2.2
 20201231_
 
 3
-
+Add endpoint url:# `source` is obtained with Stripe.js; see https://stripe.com/docs/payments/accept-a-payment-charges#web-create-token
+curl https://api.stripe.com/v1/charges \
+  -u sk_test_51KlggaISOxj70O5eU3frIqMjtDHErDFCby7esx9qu41fLBSfoMaa9qw6GBO5BZy5TsZWkXQBuGysXSkcmGSjtLLl00OhSvEGn8: \
+  -d amount=2000 \
+  -d currency=usd \
+  -d source=tok_mastercard \
+  -d description="My First Test Charge (created for API docs)"
 Scan to check the
 
 validity of the r
