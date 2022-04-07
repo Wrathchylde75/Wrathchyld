@@ -11,3 +11,5 @@ You can click the Preview link to take a look at your changes.
 - name: Setup Java JDK
   uses: actions/setup-java@v3.1.0
 brew install stripe/stripe-cli/stripe
+remote add origin git@github.com:User/UserRepo.git
+git remote set-url origin git@github.
