@@ -9,10 +9,7 @@ Wrathchyld/Wrathchyld is a ✨ special ✨ repository because its `README.md` (t
 You can click the Preview link to take a look at your changes.
 --->
 - name: Setup Java JDK
-  uses: actions/setup-java@v3.1.0
-brew install stripe/stripe-cli/stripe
-remote add origin git@github.com:User/UserRepo.git
-git remote set-url origin git@github.
+  End point localhost4242
 actions-runner-linux-x64-2.289.2.tar.gznpm test
 ```# Create a folder
 $ mkdir actions-runner && cd actions-runner# Download the latest runner package
@@ -22,7 +19,7 @@ $ tar xzf ./actions-runner-linux-x64-2.289.2.tar.gzuactions-runner-linux-x64-2.2
 20201231_
 
 3
-Add endpoint url:# `source` is obtained with Stripe.js; see https://stripe.com/docs/payments/accept-a-payment-charges#web-create-token
+Add endpoint url:# localhost4242 Stripe.js; see https://stripe.com/docs/payments/accept-a-payment-charges#web-create-token
 curl https://api.stripe.com/v1/charges \
   -u sk_test_51KlggaISOxj70O5eU3frIqMjtDHErDFCby7esx9qu41fLBSfoMaa9qw6GBO5BZy5TsZWkXQBuGysXSkcmGSjtLLl00OhSvEGn8: \
   -d amount=2000 \
@@ -45,7 +42,7 @@ endhttps://github.com/login/oauth/access_tokenget '/callback' do
   # get temporary GitHub code...
   session_code = request.env['rack.request.query_hash']['code']
 
-  # ... and POST it back to GitHub
+ 
   result = RestClient.post('https://github.com/login/oauth/access_token',
                           {:client_id => CLIENT_ID,
                            :client_secret => CLIENT_SECRET,
