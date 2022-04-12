@@ -4,5 +4,5 @@
      <id>github</id>
      <name>GitHub OWNER Apache Maven Packages</name>
      <url>https://maven.pkg.github.com/OWNER/REPOSITORY</url>
-   </repository>
+   </repository>Wrathchylde75
 </distributionManagement>
