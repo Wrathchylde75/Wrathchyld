@@ -31,10 +31,5 @@
   "gitHead": "d77aaf687fca1f0e28388b0a8de5eb3d89d4fad3",
   "bugs": {
     "url": "https://github.com/pointbiz/bitaddress.org/issues"
-  }
-}https://maven.pkg.github.com/OWNER/REPOSITORY
-snyk-fix-7000a698c9ca7c4d8c4e09d2e08170c6
-<distributionManagement>
-   <repository>
-     <id>github</id>Wrathchylde75
+  }End point: localhost 4242
      
