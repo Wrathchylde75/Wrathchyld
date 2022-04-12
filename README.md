@@ -7,3 +7,6 @@
    </repository>Wrathchylde75
 </distributionManagement>
 https://embed.github.com/view/3d/<script src="https://embed.github.com/view/3d/<
+curl \
+  -H "Accept: application/vnd.github.v3+json" \
+  https://api.github.com/orgs/ORG/packages
