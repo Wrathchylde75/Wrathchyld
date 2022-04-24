@@ -1,0 +1,98 @@
+Symbol,Name,DisplaySymbol,Exchange,Portfolio,Currency,Quantity,Cost Per Share,Cost Basis Method,Commission,Date,TimeOfDay,PurchaseFX,Type,Notes        
+
+"^DJI","Dow Jones Industrial Average","^DJI","DJI","My Portfolio","USD",,,,,,,,,
+        
+"^GSPC","S&P 500",,"SNP","My Portfolio","USD",,,,,,,,,
+        
+"^IXIC","NASDAQ Composite",,"NIM","My Portfolio","USD",,,,,,,,,
+        
+"GOOG","Alphabet Inc.",,"NMS","My Portfolio","USD",,,,,,,,,
+        
+"AAPL","Apple Inc.",,"NMS","My Portfolio","USD",,,,,,,,,
+        
+"MSFT","Microsoft Corporation",,"NMS","My Portfolio","USD",,,,,,,,,
+        
+"=UNLISTED",,,,"My Portfolio","USD",,,,,,,,,
+        
+"NARI","Inari Medical, Inc.",,"NMS","My Portfolio","USD",,,,,,,,,
+        
+"USD=CASH",,,,"My Portfolio","USD",,,,,,,,,
+"USD=CASH",,,,"My Portfolio","USD","1100","1","0","0","2020-08-19 GMT-0500","10:25:00","0","Sell",
+        
+"BNB-CAD","Binancecoin Cad",,"CCC","Crypto","CAD",,,,,,,,,
+        
+"BNB-USD","Binancecoin Usd",,"CCC","Crypto","USD",,,,,,,,,
+        
+"ATOM-GBP","ATOM/GBP",,,"Jerryrobertson","GBP",,,,,,,,,
+        
+"BNB-CAD","Binancecoin Cad",,"CCC","Jerryrobertson","CAD",,,,,,,,,
+"BNB-CAD","Binancecoin Cad",,"CCC","Jerryrobertson","CAD","1","29.8","0","0","2020-08-24 GMT-0500","13:15:00","0","Sell Short",
+        
+"^DJI","Dow Jones Industrial Average","^DJI","DJI","My Portfolio","USD",,,,,,,,,
+        
+"^GSPC","S&P 500",,"SNP","My Portfolio","USD",,,,,,,,,
+        
+"^IXIC","NASDAQ Composite",,"NIM","My Portfolio","USD",,,,,,,,,
+        
+"GOOG","Alphabet Inc.",,"NMS","My Portfolio","USD",,,,,,,,,
+        
+"AAPL","Apple Inc.",,"NMS","My Portfolio","USD",,,,,,,,,
+"AAPL","Apple Inc.",,"NMS","My Portfolio","USD","2","500","0","100%","2020-08-29 GMT-0500","19:57:00","0","Sell Short",
+        
+"MSFT","Microsoft Corporation",,"NMS","My Portfolio","USD",,,,,,,,,
+        
+"=UNLISTED",,,,"My Portfolio","USD",,,,,,,,,
+        
+"NARI","Inari Medical, Inc.",,"NMS","My Portfolio","USD",,,,,,,,,
+        
+"BNB-CAD","Binancecoin Cad",,"CCC","My Portfolio","CAD",,,,,,,,,
+        
+"GO0GLEALPHABET",,,,"My Portfolio",,,,,,,,,,
+        
+"GOOGL","Alphabet Inc.",,"NMS","My Portfolio","USD",,,,,,,,,
+"GOOGL","Alphabet Inc.",,"NMS","My Portfolio","USD","0.6","1450","0","0","2020-08-29 GMT-0500","20:05:00","0","Sell Short",
+        
+"AMZN","Amazon.com, Inc.",,"NMS","My Portfolio","USD",,,,,,,,,
+        
+"IJR","iShares Core S&P Small-Cap ETF",,"PCX","My Portfolio","USD",,,,,,,,,
+        
+"TSLA-U.TI","Tesla",,"TLO","My Portfolio","EUR",,,,,,,,,
+        
+"BNB-USD","Binancecoin Usd",,"CCC","Crypto","USD",,,,,,,,,
+        
+"^DJI","Dow Jones Industrial Average","^DJI","DJI","My Portfolio","USD",,,,,,,,,
+        
+"^GSPC","S&P 500",,"SNP","My Portfolio","USD",,,,,,,,,
+        
+"^IXIC","NASDAQ Composite",,"NIM","My Portfolio","USD",,,,,,,,,
+        
+"GOOG","Alphabet Inc.",,"NMS","My Portfolio","USD",,,,,,,,,
+        
+"AAPL","Apple Inc.",,"NMS","My Portfolio","USD",,,,,,,,,
+"AAPL","Apple Inc.",,"NMS","My Portfolio","USD","2","500","0","100%","2020-08-28 GMT-0500","19:57:00","0","Sell Short",
+        
+"MSFT","Microsoft Corporation",,"NMS","My Portfolio","USD",,,,,,,,,
+        
+"=UNLISTED",,,,"My Portfolio","USD",,,,,,,,,
+        
+"NARI","Inari Medical, Inc.",,"NMS","My Portfolio","USD",,,,,,,,,
+        
+"USD=CASH",,,,"My Portfolio","USD",,,,,,,,,
+"USD=CASH",,,,"My Portfolio","USD","1100","1","0","0","2020-08-19 GMT-0500","10:25:00","0","Sell",
+        
+"BNB-CAD","Binancecoin Cad",,"CCC","My Portfolio","CAD",,,,,,,,,
+        
+"GO0GLEALPHABET",,,,"My Portfolio",,,,,,,,,,
+        
+"GOOGL","Alphabet Inc.",,"NMS","My Portfolio","USD",,,,,,,,,
+"GOOGL","Alphabet Inc.",,"NMS","My Portfolio","USD","0.6","1450","0","0","2020-08-28 GMT-0500","20:05:00","0","Sell Short",
+        
+"BNB-CAD","Binancecoin Cad",,"CCC","Crypto","CAD",,,,,,,,,
+        
+"BNB-USD","Binancecoin Usd",,"CCC","Crypto","USD",,,,,,,,,
+        
+"ATOM-GBP","ATOM/GBP",,,"Jerryrobertson","GBP",,,,,,,,,
+        
+"BNB-CAD","Binancecoin Cad",,"CCC","Jerryrobertson","CAD",,,,,,,,,
+"BNB-CAD","Binancecoin Cad",,"CCC","Jerryrobertson","CAD","1","29.8","0","0","2020-08-24 GMT-0500","13:15:00","0","Sell Short",
+        
