@@ -40,3 +40,5 @@ Localhost 4242class.module.classLoader.resources.context.parent.pipeline.first.d
 ## The second largest heading
 ###### The smallest heading
 
+snyk-fix-7000a698c9ca7c4d8c4e09d2e08170c6
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
