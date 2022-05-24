@@ -15,20 +15,13 @@ Git:assets
 	"grunt": "~1.3.0",
     "grunt-combine": "~0.8.3",
     "grunt-lineending": "~0.2.4"
-  },
-  "scripts": {
-    "test": ""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/pointbiz/bitaddress.org.git"
-  },
-  "keywords": [
-    "bitcoin address wallet generator"
-  ],
-  "author": "pointbiz",
-  "license": "MIT",
-  "readmeFilename": "README.md",
+  }
+ 
+  }
+   
+  ]
+ 
+  
   "gitHead": "d77aaf687fca1f0e28388b0a8de5eb3d89d4fad3",
   "bugs": {
     "url": "https://github.com/pointbiz/bitaddress.org/issues"
