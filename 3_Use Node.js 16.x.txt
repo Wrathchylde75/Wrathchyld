@@ -1,0 +1,11 @@
+2022-03-09T20:58:08.2787414Z ##[group]Run actions/setup-node@v2
+2022-03-09T20:58:08.2787683Z with:
+2022-03-09T20:58:08.2787860Z   node-version: 16.x
+2022-03-09T20:58:08.2788063Z   cache: npm
+2022-03-09T20:58:08.2788248Z   always-auth: false
+2022-03-09T20:58:08.2788469Z   check-latest: false
+2022-03-09T20:58:08.2788869Z   token: ***
+2022-03-09T20:58:08.2789043Z ##[endgroup]
+2022-03-09T20:58:08.4481549Z Found in cache @ /opt/hostedtoolcache/node/16.14.0/x64
+2022-03-09T20:58:08.4529213Z [command]/opt/hostedtoolcache/node/16.14.0/x64/bin/npm config get cache
+2022-03-09T20:58:13.8524383Z ##[error]The operation was canceled.
